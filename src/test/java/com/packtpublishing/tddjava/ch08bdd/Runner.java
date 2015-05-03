@@ -33,6 +33,11 @@ public class Runner extends JUnitStories {
         );
     }
 
+    @Override
+    public InjectableStepsFactory stepsFactory() {
+        return new InstanceStepsFactory(configuration(), new Steps());
+    }
+
     private StoryReporterBuilder getReporter() {
         return new StoryReporterBuilder()
                 .withPathResolver(new FilePrintStreamFactory.ResolveToSimpleName())
