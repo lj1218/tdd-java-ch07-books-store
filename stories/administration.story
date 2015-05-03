@@ -1,5 +1,5 @@
 Narrative:
-In order to manage the book store collection efficiently
+In order to manage the book store collection
 As a store administrator
 I want to be able to perform insert, update and delete operations
 
