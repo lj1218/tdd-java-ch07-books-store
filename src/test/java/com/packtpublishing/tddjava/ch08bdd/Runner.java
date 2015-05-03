@@ -12,6 +12,7 @@ import org.jbehave.core.steps.InstanceStepsFactory;
 
 import java.util.ArrayList;
 import java.util.Arrays;
+import java.util.Collections;
 import java.util.List;
 
 public class Runner extends JUnitStories {
@@ -27,7 +28,7 @@ public class Runner extends JUnitStories {
     protected List<String> storyPaths() {
         return new StoryFinder().findPaths(
                 CodeLocations.codeLocationFromPath("").getFile(),
-                Arrays.asList("stories/**/*.story"),
+                Collections.singletonList("stories/**/*.story"),
                 new ArrayList<String>(),
                 "file:"
         );
