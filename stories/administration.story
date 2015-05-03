@@ -29,12 +29,12 @@ Scenario: User should be able to update book details
 
 Given user is on the books screen
 When user selects a book
-When user sets values to the book form
-Then book is stored
+When user sets new values to the book form
+Then book is updated
 
 Scenario: User should be able to delete a book
 
 Given user is on the books screen
 When user selects a book
-When user clicks the deleteBook button
+When user clicks the button deleteBook
 Then book is removed

@@ -8,6 +8,8 @@ repositories {
 }
 
 dependencies {
-    testCompile 'junit:junit:4.11'
-    testCompile 'org.jbehave:jbehave-core:3.9.5'
+    testCompile 'junit:junit:4.+'
+    testCompile 'org.jbehave:jbehave-core:3.+'
+    testCompile 'com.codeborne:selenide:2.+'
+    testCompile 'com.codeborne:phantomjsdriver:1.+'
 }
