@@ -1,4 +1,4 @@
-package com.packtpublishing.tddjava.ch08bdd;
+package com.packtpublishing.tddjava.ch07bdd;
 
 import static com.codeborne.selenide.Selenide.*;
 import static com.codeborne.selenide.Condition.*;

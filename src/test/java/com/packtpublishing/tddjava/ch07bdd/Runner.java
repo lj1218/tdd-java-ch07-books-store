@@ -1,4 +1,4 @@
-package com.packtpublishing.tddjava.ch08bdd;
+package com.packtpublishing.tddjava.ch07bdd;
 
 import org.jbehave.core.configuration.Configuration;
 import org.jbehave.core.configuration.MostUsefulConfiguration;
