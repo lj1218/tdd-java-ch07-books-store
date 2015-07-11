@@ -1,7 +1,7 @@
 Narrative:
 In order to manage the book store collection
 As a store administrator
-I want to be able to perform insert, update and delete operations
+I want to be able to add, update and remove books
 
 Scenario: Book details form should have all fields
 
