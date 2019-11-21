@@ -23,7 +23,7 @@ public class Steps {
     @BeforeStory
     public void beforeStory() {
         if (webDriver == null) {
-//            webDriver = new PhantomJSDriver(); // 使用 PhantomJS 驱动 会出现莫名其妙的出错误，导致测试失败
+//            webDriver = new PhantomJSDriver(); // 使用 PhantomJS 驱动 会出现莫名其妙的错误，导致测试失败
             webDriver = new FirefoxDriver();
             WebDriverRunner.setWebDriver(webDriver);
             webDriver.manage().window().setSize(
