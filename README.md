@@ -23,5 +23,5 @@ gradle clean test
 + 关闭 `Books Store`
 
 ```bash
-docker rm -f books_store >/dev/null 2&>1
+docker rm -f books_store >/dev/null 2>&1
 ```
