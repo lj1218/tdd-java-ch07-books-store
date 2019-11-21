@@ -1,6 +1,7 @@
 apply plugin: 'java'
 
-sourceCompatibility = 1.7
+//sourceCompatibility = 1.7
+sourceCompatibility = 1.8
 version = '1.0'
 
 repositories {
@@ -8,6 +9,12 @@ repositories {
 }
 
 dependencies {
-    testCompile 'junit:junit:4.11'
-    testCompile 'org.jbehave:jbehave-core:3.9.5'
+//    testCompile 'junit:junit:4.11'
+    testCompile 'junit:junit:4.12'
+//    testCompile 'org.jbehave:jbehave-core:3.9.5'
+    testCompile 'org.jbehave:jbehave-core:4.6'
+//    testCompile 'com.codeborne:selenide:2.+'
+    testCompile 'com.codeborne:selenide:5.5.0'
+//    testCompile 'com.codeborne:phantomjsdriver:1.+'
+    testCompile 'com.codeborne:phantomjsdriver:1.4.4'
 }
